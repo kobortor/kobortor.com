@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #top{
+            width: 150px;
+            height: 30px;
+            background-color: firebrick;
+            border: 3px solid black;
+            margin-left: 300px;
+            margin-top: 400px;
+            color:goldenrod;
+        }
+        #bottom{
+            width: 150px;
+            height: 70px;
+            background-color: crimson;
+            border: 3px solid black;
+            border-top: 10px goldenrod double;
+            margin-left: 300px;
+        }
+        #paper{
+            width: 20px;
+            height: 300px;
+            background-color: black; 
+            position: absolute;
+        }
+        #bow{
+            width: 50px;
+            height: 40px;
+            background-size: 50px;
+            position: absolute;
+            bottom: 210px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVAYnc49q01A1949b_fXF7JN2-NIeR1NHPdw&usqp=CAU);
+            left: 360px;
+        }
+        #table{
+            position: absolute;
+            width: 300px;
+            height: 30px;
+            top: 519px;
+            left: 230px;
+            background-color: burlywood;
+        }
+        body{
+            background-color:aliceblue;
+        }
+    </style>
+    <script>
+        function disappear() {
+            const birthday = document.createElement("div");
+            const confetti = document.createElement("div");
+            const square = document.createElement("div");
+            const square2 = document.createElement("div");
+            document.getElementById("top").style.visibility = "hidden";
+            document.body.appendChild(confetti);
+            confetti.style.backgroundColor = "olive";
+            confetti.style.width = "30px";
+            confetti.style.height = "30px";
+            confetti.style.position = "absolute";
+            confetti.style.bottom = "500px";
+            confetti.style.left = "300px";
+            confetti.style.borderRadius = "40%";
+            document.body.appendChild(square);
+            square.style.backgroundColor = "forestgreen";
+            square.style.width = "35px";
+            square.style.height = "30px";
+            square.style.position = "absolute";
+            square.style.bottom = "500px";
+            square.style.left = "350px";
+            document.body.appendChild(square2);
+            square2.style.backgroundColor = "lightgreen";
+            square2.style.width = "30px";
+            square2.style.height = "40px";
+            square2.style.position = "absolute";
+            square2.style.bottom = "500px";
+            square2.style.left = "420px";
+            const square3 = document.createElement("div");
+            document.body.appendChild(square3);
+            square3.style.backgroundColor = "lime";
+            square3.style.width = "30px";
+            square3.style.height = "30px";
+            square3.style.position = "absolute";
+            square3.style.bottom = "500px";
+            square3.style.left = "470px";
+            square3.style.borderRadius = "50%";
+            setTimeout(fall, 1000);
+            setTimeout(fall2, 1500);
+            setTimeout(fall3, 2000);
+            setTimeout(textAppear, 3000);
+            setTimeout(curtains, 7000);
+            function fall() {
+                confetti.style.left = "200px";
+                confetti.style.bottom = "450px";
+                square.style.left = "370px";
+                square.style.bottom = "460px";
+                square2.style.left = "380px";
+                square2.style.bottom = "390px";
+                square3.style.left = "490px";
+                square3.style.bottom = "320px";
+            }
+            function fall2() {
+                confetti.style.left = "250px";
+                confetti.style.bottom = "290px";
+                square.style.left = "240px";
+                square.style.bottom = "160px";
+                square2.style.left = "440px";
+                square2.style.bottom = "280px";
+                square3.style.left = "380px";
+                square3.style.bottom = "240px";
+            }
+            function fall3() {
+                confetti.style.left = "230px";
+                confetti.style.bottom = "60px";
+                square.style.left = "380px";
+                square.style.bottom = "60px";
+                square2.style.left = "440px";
+                square2.style.bottom = "60px";
+                square3.style.left = "340px";
+                square3.style.bottom = "60px";
+            }
+            function textAppear() {
+                birthday.innerText = "Happy Birthday Mom!";
+                document.body.appendChild(birthday);
+                birthday.style.fontSize = "30px";
+                birthday.style.fontFamily = "Papyrus";
+                birthday.style.fontWeight = "bold";
+                birthday.style.position = "absolute";
+                birthday.style.bottom = "500px";
+                birthday.style.left = "250px";
+                birthday.style.color = "darkgoldenrod";
+                birthday.style.border = "5px dashed dodgerblue";
+                var audio = 
+                new Audio("https://kobortor.com/success-fanfare-trumpets-6185.mp3");
+                audio.play();
+            }
+            function curtains() {
+                document.getElementById("bottom").style.display = "none";
+                birthday.style.display = "none";
+                square.style.display = "none";
+                square2.style.display = "none";
+                square3.style.display = "none";
+                confetti.style.display = "none";
+                document.getElementById("table").style.display = "none";
+                document.body.style.backgroundImage = "url('https://st.depositphotos.com/1494134/3962/v/600/depositphotos_39621855-stock-illustration-blue-curtain-vector-illustration.jpg')";
+                document.body.style.backgroundSize = "cover";
+                const end = document.createElement("h1");
+                end.innerText = "The End";
+                document.body.appendChild(end);
+                end.style.fontSize = "50px";
+                end.style.fontFamily = "Georgia, serif";
+                end.style.position = "absolute";
+                end.style.left = "500px";
+                end.style.backgroundColor = "lightblue";
+                end.style.right = "550px";
+                end.style.bottom = "200px";
+                const snowflake = document.createElement("img");
+                snowflake.src= "https://images.squarespace-cdn.com/content/v1/5425bffce4b05b9e44a9f63d/1551125060141-PQG4ITEUQ42V6P9FG174/snowflakes-2.jpg";
+                snowflake.style.width = "50px";
+                snowflake.style.height = "50px";
+                snowflake.style.position = "absolute";
+                snowflake.style.bottom = "500px";
+                setTimeout(snow, 500);
+                setTimeout(snow2, 1000);
+                setTimeout(snow3, 1500);
+                setTimeout(snow4, 2500);
+                setTimeout(melt, 4000);
+                function snow() {
+                    snowflake.style.left = "600px";
+                    snowflake.style.bottom = "450px";
+                }
+                function snow2() {
+                    snowflake.style.left = "400px";
+                    snowflake.style.bottom = "300px";
+                }
+                function snow3() {
+                    snowflake.style.left = "550px";
+                    snowflake.style.bottom = "200px";
+                    snowflake.style.opacity = 0.5;
+                }
+                function snow4() {
+                    snowflake.style.left = "300px";
+                    snowflake.style.bottom = "0px";
+                    snowflake.style.opacity = 0.2;
+                    var audio2 = new Audio("https://kobortor.com/mixkit-fairy-glitter-867.wav");
+                    audio2.play();
+                }
+                function melt() {
+                    snowflake.style.display = "none";
+                }
+                document.body.appendChild(snowflake);
+            }
+        }  
+    </script>
+</head>
+<body>
+    <title>Surprise!</title>
+    <div id="top" onclick="disappear()">CLick me!
+    <div id="bow"></div></div>
+    <div id="bottom"></div>
+    <div id="table"></div>
+</body>
+</html>
