@@ -1,6 +1,10 @@
-# kobortor.com
+---
+layout: page
+title: CCO Scores
+permalink: /cco/
+---
 
-Hi there, my name is Joey Yu, and my online handle is `kobortor`. You can find me under that handle on Don Mills Online Judge (DMOJ), Codeforces and many other competitive programming websites. Below, I have compiled the results for the previous 7 years of the Canadian Computing Olympiad.
+Below, I have compiled the results for the previous 7 years of the Canadian Computing Olympiad.
 
 [CCO Results 2017](https://docs.google.com/spreadsheets/d/1QtrUWsgY-zPCIwCfeSX_AXtDMleQX80ygAeeF9n4og8/edit?usp=sharing)
 
@@ -16,8 +20,4 @@ Hi there, my name is Joey Yu, and my online handle is `kobortor`. You can find m
 
 [CCO Results 2023](https://docs.google.com/spreadsheets/d/1IKGjUs5T4dnxJoZ6p6K-59WdVcf9MSc0p1yOah5Zcxw/edit?usp=sharing) (Thanks to Balint Rosza for gathering the data)
 
-Note: This website is not affiliated with the University of Waterloo.
-
-### More links
-
-[Resume](https://kobortor.s3.us-east-2.amazonaws.com/Joey_CV.pdf)
+Note: This information is not officially sanctioned by UWaterloo and collected through voluntary samples, and thus might contain inaccuracies.
