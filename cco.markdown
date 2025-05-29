@@ -4,7 +4,7 @@ title: CCO Scores
 permalink: /cco/
 ---
 
-Below, I have compiled the results for the previous 8 years of the Canadian Computing Olympiad.
+Below, I have compiled the results for the previous 9 years of the Canadian Computing Olympiad.
 
 [CCO Results 2017](https://docs.google.com/spreadsheets/d/1QtrUWsgY-zPCIwCfeSX_AXtDMleQX80ygAeeF9n4og8/edit?usp=sharing)
 
@@ -21,5 +21,7 @@ Below, I have compiled the results for the previous 8 years of the Canadian Comp
 [CCO Results 2023](https://docs.google.com/spreadsheets/d/1IKGjUs5T4dnxJoZ6p6K-59WdVcf9MSc0p1yOah5Zcxw/edit?usp=sharing) (Thanks to Balint Rosza for gathering the data)
 
 [CCO Results 2024](https://docs.google.com/spreadsheets/d/1BO08hGTLRirRWKPUcZf3vRqYxNMrZseQ86jG-F4JqbI/edit?gid=0#gid=0) (Thanks to Balint Rosza for gathering the data)
+
+[CCO Results 2025](https://docs.google.com/spreadsheets/d/1Fd50zOnrfFqjnl4C9Y-rQGd2w3rKjd72nsH7vLgcnrg/edit?gid=0#gid=0) (Thanks to Austin Jiang for gathering the data)
 
 Note: This information is not officially sanctioned by UWaterloo and collected through voluntary samples, and thus might contain inaccuracies.
